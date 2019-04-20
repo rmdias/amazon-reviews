@@ -1,0 +1,37 @@
+.arw_reviews__item {
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.arw_reviews__item_header {
+  display: flex;
+}
+
+.arw_reviews__item_info {
+  padding: 0 7%;
+}
+
+.arw_reviews__item_info:last-child {
+  padding-right: 0;
+}
+
+.arw_reviews__item_name {
+  max-width: 140px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.arw_reviews__item_info__title {
+  font-size: 11px;
+  display: block;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.arw_reviews__title {
+  font-size: 16px;
+  padding: 25px 0 5px 0;
+}
+
