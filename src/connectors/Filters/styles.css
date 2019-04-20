@@ -1,0 +1,19 @@
+.arw_filter__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arw_filter__group__column {
+  width: 48%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arw_filter__checkbox {
+  width: 66px;
+}
+
+.arw_filter__button {
+  justify-content: flex-end;
+}
