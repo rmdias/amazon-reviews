@@ -1,68 +1,65 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Amazon Reviews 
+A simple interface to read amazon reviews
+ 
+ ## Tech Stack
 
-In the project directory, you can run:
+| ES2018 | React | LunaUI | Jest |
+|:------:|:-------:|:-----:|:----:|
+| <img width="70px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2000px-Unofficial_JavaScript_logo_2.svg.png"> | <img width="70px" src="https://cdn.worldvectorlogo.com/logos/react.svg"> |  <img width="70px" src="https://raw.githubusercontent.com/paulsecret/luna-ui/master/luna.png"> | <img width="70px" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png"> |
 
-### `npm start`
+* [LunaUI](https://github.com/paulsecret/luna-ui) - It's a lite UI component lib, based on themes build with React+StyledComponents. This is also an opensource project I've been working for the past months. For more detais, take a look on the repo :)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ ## Install
+ ```
+  yarn
+ ```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+ ## Development
+ to build in development mode
+ ```
+  yarn start
+ ```
+ 
+## Unit Tests
+To run the unit tests:
+```
+yarn test
+```
 
-### `npm test`
+## To production
+```
+yarn build
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Project Structure
+```
+.
++-- README.md
++-- .gitignore
++-- .env
++-- package.json
++-- /public
+|   +-- ...
++-- /src
+|   +-- history.js
+|   +-- index.css
+|   +-- index.js
+|   +-- store.js
+|   +-- setupTests.js
+|   +-- /actions
+|   |   +-- ...
+|   +-- /components
+|   |   +-- ...
+|   +-- /connectors
+|   |   +-- ...
+|   +-- /constants
+|   |   +-- ...
+|   +-- /reducers
+|   |   +-- ...
+|   +-- /sagas
+|   |   +-- ...
+|   +-- /services
+|   |   +-- ...
+```
