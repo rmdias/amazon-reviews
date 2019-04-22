@@ -27,7 +27,7 @@ export default class Reviews extends PureComponent {
           <div className="arw_reviews__item_info">
             <div className="arw_reviews__item_info_column">
               <Hint className="arw_reviews__item_info__title">date</Hint>
-              <strong>{moment(this.props.review.created).format('DD.MM.YYYY')}</strong>
+              <strong>{moment(this.props.review.reviewCreated).format('DD.MM.YYYY')}</strong>
             </div>
 
             <div className="arw_reviews__item_info_column">

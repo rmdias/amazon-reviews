@@ -47,8 +47,8 @@ class Filters extends PureComponent {
   }
 
   handleSearchChangeDebounce(e) {
-    if (!e.target.value.trim().length) return
-    
+    if (!e.target.value.trim().length) e.target.value = ''
+
     this.props.onChangeFilters('search', e.target.value)
   }
 
