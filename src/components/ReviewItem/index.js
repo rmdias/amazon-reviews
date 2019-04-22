@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
+import moment from 'moment'
+
 import { Area, Hint, Image as ProductImage } from 'luna-ui-lib'
 
 import './styles.css'
@@ -23,18 +25,20 @@ export default class Reviews extends PureComponent {
           />
 
           <div className="arw_reviews__item_info">
-            <Hint className="arw_reviews__item_info__title">date</Hint>
-            <strong>{this.props.review.created}</strong>
-          </div>
+            <div className="arw_reviews__item_info_column">
+              <Hint className="arw_reviews__item_info__title">date</Hint>
+              <strong>{moment(this.props.review.created).format('DD.MM.YYYY')}</strong>
+            </div>
 
-          <div className="arw_reviews__item_info">
-            <Hint className="arw_reviews__item_info__title">stars</Hint>
-            <strong>{this.props.review.stars} ★★★★</strong>
-          </div>
+            <div className="arw_reviews__item_info_column">
+              <Hint className="arw_reviews__item_info__title">stars</Hint>
+              <strong>{'★'.repeat(this.props.review.stars)}</strong>
+            </div>
 
-          <div className="arw_reviews__item_info">
-            <Hint className="arw_reviews__item_info__title">{this.props.review.reviewId}</Hint>
-            <strong className="arw_reviews__item_name">{this.props.review.productTitle}</strong>
+            <div className="arw_reviews__item_info_column">
+              <Hint className="arw_reviews__item_info__title">{this.props.review.reviewId}</Hint>
+              <strong className="arw_reviews__item_name">{this.props.review.productTitle}</strong>
+            </div>
           </div>
         </header>
         <h4 className="arw_reviews__title"><strong>{this.props.review.title}</strong></h4>

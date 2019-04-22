@@ -8,10 +8,14 @@
 }
 
 .arw_reviews__item_info {
+  display: flex;
+}
+
+.arw_reviews__item_info_column {
   padding: 0 7%;
 }
 
-.arw_reviews__item_info:last-child {
+.arw_reviews__item_info_column:last-child {
   padding-right: 0;
 }
 
@@ -35,3 +39,26 @@
   padding: 25px 0 5px 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .arw_reviews__item_header {
+    display: block;
+  }
+
+  .arw_reviews__item_image {
+    width: 100%;
+    height: 150px;
+  }
+
+  .arw_reviews__item_info {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .arw_reviews__item_info_column {
+    padding: 0 2%;
+  }
+
+  .arw_reviews__item_info_column:first-child {
+    padding-left: 0;
+  }
+}

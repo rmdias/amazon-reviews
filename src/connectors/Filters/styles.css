@@ -17,3 +17,26 @@
 .arw_filter__button {
   justify-content: flex-end;
 }
+
+@media only screen and (max-width: 768px) {
+  .arw_filter__secundary {
+    display: block;
+  }
+
+  .arw_filter__star {
+    width: 100%;
+  }
+
+  .arw_filter__checkbox {
+    width: 40px;
+  }
+
+  .arw_filter__button {
+    width: 100%;
+    display: block;
+  }
+
+  .arw_filter__button button {
+    width: 100%;
+  }
+}

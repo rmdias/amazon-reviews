@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import React, { PureComponent, Fragment } from 'react'
+import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { Form, Button } from 'luna-ui-lib'
 
@@ -47,6 +47,8 @@ class Filters extends PureComponent {
   }
 
   handleSearchChangeDebounce(e) {
+    if (!e.target.value.trim().length) return
+    
     this.props.onChangeFilters('search', e.target.value)
   }
 
@@ -83,7 +85,7 @@ class Filters extends PureComponent {
               onChange: e => this.changeFilters('groupBy', e.target.value),
             }}>
             >
-            <option value="">Group by</option>
+            <option value="day">Group by</option>
             <option value="day">Day</option>
             <option value="week">Week</option>
             <option value="month">Month</option>
@@ -102,8 +104,8 @@ class Filters extends PureComponent {
           </Form.Select>
         </div>
 
-        <div className="arw_filter__group">
-          <div className="arw_filter__group__column">
+        <div className="arw_filter__group arw_filter__secundary">
+          <div className="arw_filter__group__column arw_filter__star">
             {this.getStarFilters()}
           </div>
 
