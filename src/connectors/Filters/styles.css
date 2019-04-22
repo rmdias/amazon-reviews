@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.arw_filter__group__column {
+div.arw_filter__group__column {
   width: 48%;
   margin-top: 10px;
   display: flex;
@@ -14,7 +14,7 @@
   width: 66px;
 }
 
-.arw_filter__button {
+div.arw_filter__button {
   justify-content: flex-end;
 }
 
@@ -23,7 +23,7 @@
     display: block;
   }
 
-  .arw_filter__star {
+  div.arw_filter__star {
     width: 100%;
   }
 
@@ -31,12 +31,12 @@
     width: 40px;
   }
 
-  .arw_filter__button {
+  div.arw_filter__button {
     width: 100%;
     display: block;
   }
 
-  .arw_filter__button button {
+  div.arw_filter__button button {
     width: 100%;
   }
 }

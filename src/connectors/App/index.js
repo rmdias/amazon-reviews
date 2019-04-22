@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from 'react'
 import { Provider } from 'react-redux'
 import PropTypes from 'prop-types'
 import { Theme } from 'luna-ui-lib'
@@ -27,7 +27,7 @@ class App extends PureComponent {
           </div>
         </Theme>
       </Provider>
-    );
+    )
   }
 }
 
