@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewItem /> toMatchSnapshot: Load <ReviewItem /> component 1`] = `
+<div>
+  <div
+    className="arw_reviews__item sc-kpOJdX ddRiWz"
+  >
+    <header
+      className="arw_reviews__item_header"
+    >
+      <img
+        alt="image"
+        className="arw_reviews__item_image sc-dxgOiQ kgxBsP"
+        src="https://images-na.ssl-images-amazon.com/images/I/undefined._SY679_.jpg"
+      />
+      <div
+        className="arw_reviews__item_info"
+      >
+        <div
+          className="arw_reviews__item_info_column"
+        >
+          <span
+            className="arw_reviews__item_info__title sc-ckVGcZ GYKlq"
+          >
+            date
+          </span>
+          <strong>
+            07.02.2018
+          </strong>
+        </div>
+        <div
+          className="arw_reviews__item_info_column"
+        >
+          <span
+            className="arw_reviews__item_info__title sc-jKJlTe cOhKeT"
+          >
+            stars
+          </span>
+          <strong>
+            ★★★★★
+          </strong>
+        </div>
+        <div
+          className="arw_reviews__item_info_column"
+        >
+          <span
+            className="arw_reviews__item_info__title sc-eNQAEJ dWsydp"
+          />
+          <strong
+            className="arw_reviews__item_name"
+          />
+        </div>
+      </div>
+    </header>
+    <h4
+      className="arw_reviews__title"
+    >
+      <strong>
+        Nice rattle sound
+      </strong>
+    </h4>
+    <p />
+  </div>
+</div>
+`;

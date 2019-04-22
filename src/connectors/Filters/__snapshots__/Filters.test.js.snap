@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filters /> toMatchSnapshot: Load <Filters /> 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="sc-bwzfXH bVXEpg"
+    >
+      <input
+        className="sc-bdVaJa cgeXdS"
+        defaultValue=""
+        icon="search"
+        kind="primary"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+      <span
+        className="sc-htpNat eeDWLn"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-search fa-w-16 "
+          data-icon="search"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
+      <div
+        className="sc-bxivhb inrsMJ"
+      />
+    </div>
+    <div
+      className="arw_filter__group"
+    >
+      <div
+        className="arw_filter__group__column sc-gzVnrw gATUFx"
+      >
+        <select
+          className="sc-bZQynM elWAtx"
+          defaultValue="day"
+          icon=""
+          kind="primary"
+          onChange={[Function]}
+        >
+          &gt;
+          <option
+            value="day"
+          >
+            Group by
+          </option>
+          <option
+            value="day"
+          >
+            Day
+          </option>
+          <option
+            value="week"
+          >
+            Week
+          </option>
+          <option
+            value="month"
+          >
+            Month
+          </option>
+        </select>
+        <span
+          className="sc-dnqmqq jolSXU"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-down fa-w-10 "
+            data-icon="caret-down"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        className="arw_filter__group__column sc-gzVnrw gATUFx"
+      >
+        <select
+          className="sc-bZQynM elWAtx"
+          defaultValue={null}
+          icon=""
+          kind="primary"
+          onChange={[Function]}
+        >
+          <option
+            value=""
+          >
+            Order by
+          </option>
+          <option
+            value="+"
+          >
+            Newest
+          </option>
+          <option
+            value="-"
+          >
+            Oldest
+          </option>
+        </select>
+        <span
+          className="sc-dnqmqq jolSXU"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-caret-down fa-w-10 "
+            data-icon="caret-down"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 320 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div
+      className="arw_filter__group arw_filter__secundary"
+    >
+      <div
+        className="arw_filter__group__column arw_filter__star"
+      >
+        <div
+          className="sc-ckVGcZ kIFqiS"
+        >
+          <input
+            checked={false}
+            className="arw_filter__checkbox sc-kpOJdX cBrFTe"
+            id="starRating1"
+            name="starRating"
+            onClick={[Function]}
+            readOnly={true}
+            type="checkbox"
+            value="1"
+          />
+          <label
+            className="sc-dxgOiQ fYqTDd"
+            htmlFor="starRating1"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check fa-w-16 "
+              data-icon="check"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </label>
+          <label
+            htmlFor="starRating1"
+          >
+            1 ★
+          </label>
+        </div>
+        <div
+          className="sc-hMqMXs kuDzGN"
+        >
+          <input
+            checked={false}
+            className="arw_filter__checkbox sc-jKJlTe ewsNhL"
+            id="starRating2"
+            name="starRating"
+            onClick={[Function]}
+            readOnly={true}
+            type="checkbox"
+            value="2"
+          />
+          <label
+            className="sc-eNQAEJ UYfxK"
+            htmlFor="starRating2"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check fa-w-16 "
+              data-icon="check"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </label>
+          <label
+            htmlFor="starRating2"
+          >
+            2 ★
+          </label>
+        </div>
+        <div
+          className="sc-iAyFgw gdXwhq"
+        >
+          <input
+            checked={false}
+            className="arw_filter__checkbox sc-kEYyzF ciRNwt"
+            id="starRating3"
+            name="starRating"
+            onClick={[Function]}
+            readOnly={true}
+            type="checkbox"
+            value="3"
+          />
+          <label
+            className="sc-kkGfuU ccjtGP"
+            htmlFor="starRating3"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check fa-w-16 "
+              data-icon="check"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </label>
+          <label
+            htmlFor="starRating3"
+          >
+            3 ★
+          </label>
+        </div>
+        <div
+          className="sc-cvbbAY bgMdFH"
+        >
+          <input
+            checked={false}
+            className="arw_filter__checkbox sc-hSdWYo dmJKUR"
+            id="starRating4"
+            name="starRating"
+            onClick={[Function]}
+            readOnly={true}
+            type="checkbox"
+            value="4"
+          />
+          <label
+            className="sc-eHgmQL DVCma"
+            htmlFor="starRating4"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check fa-w-16 "
+              data-icon="check"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </label>
+          <label
+            htmlFor="starRating4"
+          >
+            4 ★
+          </label>
+        </div>
+        <div
+          className="sc-cMljjf kIYWrr"
+        >
+          <input
+            checked={true}
+            className="arw_filter__checkbox sc-jWBwVP ctiNGQ"
+            id="starRating5"
+            name="starRating"
+            onClick={[Function]}
+            readOnly={true}
+            type="checkbox"
+            value="5"
+          />
+          <label
+            className="sc-brqgnP iVorSy"
+            htmlFor="starRating5"
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-check fa-w-16 "
+              data-icon="check"
+              data-prefix="fas"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </label>
+          <label
+            htmlFor="starRating5"
+          >
+            5 ★
+          </label>
+        </div>
+      </div>
+      <div
+        className="arw_filter__group__column arw_filter__button"
+      >
+        <button
+          className="sc-jAaTju kLxzzc"
+        >
+           
+          refresh
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

@@ -2,7 +2,7 @@ import FilterReviews from './index'
 import DEFAULT_STAR_RATING from 'constants/DEFAULT_STAR_RATING'
 
 // Mocks
-import ReviewsMock from './__mocks__/mock__reviews'
+import ReviewsMock from './__mocks__/__mock__reviews'
 
 let filterParameters
 beforeEach(() => {

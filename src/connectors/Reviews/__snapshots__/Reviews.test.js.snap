@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Reviews /> toMatchSnapshot: Load <ReviewItems /> as list 1`] = `
+<div>
+  <div
+    className="arw_reviews"
+  >
+    <div>
+      <dl
+        className="arw_reviews_group"
+      >
+        <dt
+          className="arw_reviews_group_type"
+        >
+          <span
+            className="sc-dxgOiQ fWGswn"
+          >
+            <strong>
+              07.02.2018
+            </strong>
+          </span>
+        </dt>
+        <dd>
+          <div
+            className="arw_reviews__item sc-ckVGcZ EUALb"
+          >
+            <header
+              className="arw_reviews__item_header"
+            >
+              <img
+                alt="image"
+                className="arw_reviews__item_image sc-jKJlTe kkNBMm"
+                src="https://images-na.ssl-images-amazon.com/images/I/undefined._SY679_.jpg"
+              />
+              <div
+                className="arw_reviews__item_info"
+              >
+                <div
+                  className="arw_reviews__item_info_column"
+                >
+                  <span
+                    className="arw_reviews__item_info__title sc-eNQAEJ dWsydp"
+                  >
+                    date
+                  </span>
+                  <strong>
+                    07.02.2018
+                  </strong>
+                </div>
+                <div
+                  className="arw_reviews__item_info_column"
+                >
+                  <span
+                    className="arw_reviews__item_info__title sc-hMqMXs cMnqLP"
+                  >
+                    stars
+                  </span>
+                  <strong>
+                    ★★★★★
+                  </strong>
+                </div>
+                <div
+                  className="arw_reviews__item_info_column"
+                >
+                  <span
+                    className="arw_reviews__item_info__title sc-kEYyzF dRxZbp"
+                  />
+                  <strong
+                    className="arw_reviews__item_name"
+                  />
+                </div>
+              </div>
+            </header>
+            <h4
+              className="arw_reviews__title"
+            >
+              <strong>
+                Nice rattle sound
+              </strong>
+            </h4>
+            <p />
+          </div>
+        </dd>
+      </dl>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Reviews /> toMatchSnapshot: Loading 1`] = `
+<div>
+  <div
+    className="arw_reviews"
+  >
+    <div
+      className="arw_reviews__loader sc-kpOJdX jIxhBs"
+      kind="primary"
+      size={50}
+    />
+    <div />
+  </div>
+</div>
+`;
