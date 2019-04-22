@@ -4,7 +4,7 @@ import DEFAULT_STAR_RATING from 'constants/DEFAULT_STAR_RATING'
 
 const initialState = {
   search: '',
-  groupBy: null,
+  groupBy: 'day',
   order: null,
   stars: [ DEFAULT_STAR_RATING ],
   loading: false

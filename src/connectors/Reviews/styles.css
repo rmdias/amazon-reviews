@@ -5,3 +5,7 @@
 .arw_reviews_group_type {
   padding-bottom: 10px;
 }
+
+.arw_reviews__loader {
+  margin: 0 auto;
+}

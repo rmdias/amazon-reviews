@@ -4,8 +4,10 @@ import { reviews } from 'actions/reviews'
 
 export default connect(
   (state, ownProps) => ({
+    filters: _.get(state, 'filters', {}),
     reviewsList: _.get(state, 'reviews.list', []),
-    filters: _.get(state, 'filters', {})
+    hasMore: _.get(state, 'reviews.hasMore', false),
+    loading: _.get(state, 'reviews.loading', true)
   }),
   (dispatch) => ({
     onFetchReviews: page => dispatch(reviews.fetch.request(page))

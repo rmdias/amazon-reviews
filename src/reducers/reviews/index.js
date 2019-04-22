@@ -11,15 +11,15 @@ export default (state = initialState, action) => {
   switch (action.type) {
     case REVIEWS.FETCH.REQUEST: {
       const reviewsState = _.cloneDeep(state)
+      reviewsState.hasMore = false
 
       return reviewsState
     }
     case REVIEWS.FETCH.SUCCESS: {
       const reviewsState = _.cloneDeep(state)
 
-      reviewsState.list = action.response.reviews
+      reviewsState.list = [...reviewsState.list, ...action.response.reviews]
       reviewsState.hasMore = action.response.hasMore
-
 
       return reviewsState
     }
